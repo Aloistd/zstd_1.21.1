@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_netherite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "projectzstd:deepslate_netherite_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "projectzstd:netherite_nugget_from_smelting_deepslate_netherite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_deepslate_netherite_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "projectzstd:netherite_nugget_from_smelting_deepslate_netherite_ore"
+    ]
+  }
+}

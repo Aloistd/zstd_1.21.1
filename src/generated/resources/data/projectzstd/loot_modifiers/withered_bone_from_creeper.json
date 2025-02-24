@@ -1,0 +1,19 @@
+{
+  "type": "projectzstd:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:entities/wither_skeleton"
+        },
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ],
+  "item": "projectzstd:withered_bone"
+}

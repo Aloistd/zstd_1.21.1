@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "citrofite",
+  "ingredient": {
+    "item": "projectzstd:raw_citrofite"
+  },
+  "result": {
+    "id": "projectzstd:pure_citrofite"
+  }
+}

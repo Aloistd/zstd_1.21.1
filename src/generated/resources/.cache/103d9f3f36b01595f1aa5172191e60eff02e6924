@@ -1,0 +1,7 @@
+// 1.21.1	2025-02-20T20:05:18.592157	Registries
+33fc85f6c5f1d5ff5735520c56c107313b466ac4 data/projectzstd/forge/biome_modifier/add_citrofite_ore.json
+e81e8657ac4c4c53329ba72eeb06907b4dfc0832 data/projectzstd/forge/biome_modifier/add_netherite_ore.json
+2901bf7ca50d5301661a45c3afe3730c8f0e0baf data/projectzstd/worldgen/configured_feature/citrofite_ore.json
+bc9f6720c5ad021b89df543ab389ff0869257f2d data/projectzstd/worldgen/configured_feature/netherite_ore.json
+672a39c3c8552cdd1604c598b9b8a805f59a81b0 data/projectzstd/worldgen/placed_feature/citrofite_ore_placed.json
+ecfc2ed99fc647c943a1f81e09c1373c6ef83a0a data/projectzstd/worldgen/placed_feature/netherite_ore_placed.json

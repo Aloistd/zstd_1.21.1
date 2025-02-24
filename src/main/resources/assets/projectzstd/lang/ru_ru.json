@@ -1,0 +1,26 @@
+{
+  "creativetab.projectzstd.zstd_items": "zstd",
+  "creativetab.projectzstd.zstd_equipment": "Ezstd",
+  "item.projectzstd.netherite_nugget": "Кусочек незерита",
+  "item.projectzstd.raw_citrofite": "Необработанный цитрофит",
+  "item.projectzstd.citrofite_ingot": "Цитрофитoвый слиток",
+  "item.projectzstd.pure_citrofite": "Чистый цитрофит",
+  "item.projectzstd.citrofite_charge": "Цитрофитoвая шихта",
+
+  "item.projectzstd.citrofite_sword": "Цитрофитовый меч",
+  "item.projectzstd.citrofite_axe": "Цитрофитовый топор",
+  "item.projectzstd.citrofite_pickaxe": "Цитрофитовая кирка",
+  "item.projectzstd.citrofite_shovel": "Цитрофитовая лопата",
+  "item.projectzstd.citrofite_hoe": "Цитрофитовая мотыга",
+
+  "item.projectzstd.citrofite_helmet": "Цитрофитовый шлем",
+  "item.projectzstd.citrofite_chestplate": "Цитрофитовая кираса",
+  "item.projectzstd.citrofite_leggings": "Цитрофитовые поножи",
+  "item.projectzstd.citrofite_boots": "Цитрофитовые ботинки",
+
+  "block.projectzstd.netherite_ore": "Незеритовая руда",
+  "block.projectzstd.deepslate_netherite_ore": "Незеритоносный глубинный сланец",
+  "block.projectzstd.citrofite_ore": "Цитрофитовая руда",
+  "block.projectzstd.deepslate_citrofite_ore": "Цитрофитоносный глубинный сланец"
+
+}

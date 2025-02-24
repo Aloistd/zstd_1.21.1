@@ -1,0 +1,8 @@
+// 1.21.1	2025-02-20T05:57:36.8202192	Tags for minecraft:block mod id projectzstd
+3f2215d01d5a30f3832cda42caa6dd7bd2868d8d data/minecraft/tags/block/incorrect_for_diamond_tool.json
+3f2215d01d5a30f3832cda42caa6dd7bd2868d8d data/minecraft/tags/block/incorrect_for_gold_tool.json
+3f2215d01d5a30f3832cda42caa6dd7bd2868d8d data/minecraft/tags/block/incorrect_for_iron_tool.json
+3f2215d01d5a30f3832cda42caa6dd7bd2868d8d data/minecraft/tags/block/incorrect_for_stone_tool.json
+3f2215d01d5a30f3832cda42caa6dd7bd2868d8d data/minecraft/tags/block/incorrect_for_wooden_tool.json
+b4ce7632aca0227c4c47254f9d6bb32dbb18b585 data/minecraft/tags/block/mineable/pickaxe.json
+b2804adbdc449a284c047218dbfebfa281ac8ae5 data/minecraft/tags/block/needs_diamond_tool.json

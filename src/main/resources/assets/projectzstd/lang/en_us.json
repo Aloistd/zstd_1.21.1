@@ -1,0 +1,26 @@
+{
+  "creativetab.projectzstd.zstd_items": "zstd",
+  "creativetab.projectzstd.zstd_equipment": "Ezstd",
+  "item.projectzstd.netherite_nugget": "Netherite Nugget",
+  "item.projectzstd.raw_citrofite": "Raw Citrofite",
+  "item.projectzstd.citrofite_ingot": "Citrofite Ingot",
+  "item.projectzstd.pure_citrofite": "Pure Citrofite",
+  "item.projectzstd.citrofite_charge": "Citrofite Charge",
+
+  "item.projectzstd.citrofite_sword": "Citrofite Sword",
+  "item.projectzstd.citrofite_axe": "Citrofite Axe",
+  "item.projectzstd.citrofite_pickaxe": "Citrofite Pickaxe",
+  "item.projectzstd.citrofite_shovel": "Citrofite Shovel",
+  "item.projectzstd.citrofite_hoe": "Citrofite Hoe",
+
+  "item.projectzstd.citrofite_helmet": "Citrofite Helmet",
+  "item.projectzstd.citrofite_chestplate": "Citrofite Chestplate",
+  "item.projectzstd.citrofite_leggings": "Citrofite Leggings",
+  "item.projectzstd.citrofite_boots": "Citrofite Boots",
+
+  "block.projectzstd.netherite_ore": "Netherite Ore",
+  "block.projectzstd.deepslate_netherite_ore": "Deepslate Netherite Ore",
+  "block.projectzstd.citrofite_ore": "Citrofite Ore",
+  "block.projectzstd.deepslate_citrofite_ore": "Deepslate Citrofite Ore"
+
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_citrofite_charge": {
+      "conditions": {
+        "items": [
+          {
+            "items": "projectzstd:citrofite_charge"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "projectzstd:citrofite_ingot_from_smelting_citrofite_charge"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_citrofite_charge"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "projectzstd:citrofite_ingot_from_smelting_citrofite_charge"
+    ]
+  }
+}
