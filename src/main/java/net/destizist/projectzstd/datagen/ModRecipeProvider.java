@@ -32,11 +32,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModItems.CITROFITE_CHARGE.get());
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_SCYTHE.get())
-                .pattern("222")
-                .pattern("#12")
-                .pattern("1##")
-                .define('1', Items.STICK)
-                .define('2', ItemTags.PLANKS)
+                .pattern("###")
+                .pattern(" @#")
+                .pattern("@  ")
+                .define('@', Items.STICK)
+                .define('#', ItemTags.PLANKS)
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK)).save(pRecipeOutput);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.NETHERITE_SCRAP)
                 .pattern("###")

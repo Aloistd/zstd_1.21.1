@@ -30,7 +30,7 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERITE_SCYTHE = ITEMS.register("netherite_scythe",
             () -> new ScytheItem(Tiers.NETHERITE, 1, -2.4F, 3.0, 1.0F, new Item.Properties()));
     public static final RegistryObject<Item> CITROFITE_SCYTHE = ITEMS.register("citrofite_scythe",
-            () -> new ScytheItem(ModToolTiers.CITROFITE, 1, -2.4F, 3.0, 1.0F, new Item.Properties()));
+            () -> new ScytheItem(ModToolTiers.CITROFITE, 0, -2.4F, 3.0, 0.0F, new Item.Properties()));
 
 public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget",
             () -> new Item(new Item.Properties()));
