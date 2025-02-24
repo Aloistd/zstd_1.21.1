@@ -21,6 +21,14 @@
   "block.projectzstd.netherite_ore": "Незеритовая руда",
   "block.projectzstd.deepslate_netherite_ore": "Незеритоносный глубинный сланец",
   "block.projectzstd.citrofite_ore": "Цитрофитовая руда",
-  "block.projectzstd.deepslate_citrofite_ore": "Цитрофитоносный глубинный сланец"
+  "block.projectzstd.deepslate_citrofite_ore": "Цитрофитоносный глубинный сланец",
+
+  "item.projectzstd.citrofite_scythe":"Цитрофитовая Коса",
+  "item.projectzstd.netherite_scythe":"Незеритовая Коса",
+  "item.projectzstd.diamond_scythe":"Алмазная Коса",
+  "item.projectzstd.golden_scythe":"Золотая Коса",
+  "item.projectzstd.iron_scythe":"Железная Коса",
+  "item.projectzstd.stone_scythe":"Каменная Коса",
+  "item.projectzstd.wooden_scythe":"Деревянная Коса"
 
 }

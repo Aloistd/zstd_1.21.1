@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "projectzstd:citrofite_ingot"
+  },
+  "base": {
+    "item": "projectzstd:netherite_scythe"
+  },
+  "result": {
+    "count": 1,
+    "id": "projectzstd:citrofite_scythe"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}
+

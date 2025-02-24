@@ -21,6 +21,14 @@
   "block.projectzstd.netherite_ore": "Netherite Ore",
   "block.projectzstd.deepslate_netherite_ore": "Deepslate Netherite Ore",
   "block.projectzstd.citrofite_ore": "Citrofite Ore",
-  "block.projectzstd.deepslate_citrofite_ore": "Deepslate Citrofite Ore"
+  "block.projectzstd.deepslate_citrofite_ore": "Deepslate Citrofite Ore",
+
+  "item.projectzstd.citrofite_scythe":"Citrofite Scythe",
+  "item.projectzstd.netherite_scythe":"Netherite Scythe",
+  "item.projectzstd.diamond_scythe":"Diamond Scythe",
+  "item.projectzstd.golden_scythe":"Golden Scythe",
+  "item.projectzstd.iron_scythe":"Iron Scythe",
+  "item.projectzstd.stone_scythe":"Stone Scythe",
+  "item.projectzstd.wooden_scythe":"Wooden Scythe"
 
 }

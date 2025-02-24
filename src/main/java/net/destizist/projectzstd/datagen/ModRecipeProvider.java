@@ -38,6 +38,39 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('@', Items.STICK)
                 .define('#', ItemTags.PLANKS)
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STONE_SCYTHE.get())
+                .pattern("###")
+                .pattern(" @#")
+                .pattern("@  ")
+                .define('@', Items.STICK)
+                .define('#', Items.COBBLESTONE)
+                .unlockedBy(getHasName(Items.COBBLESTONE), has(Items.COBBLESTONE)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_SCYTHE.get())
+                .pattern("###")
+                .pattern(" @#")
+                .pattern("@  ")
+                .define('@', Items.STICK)
+                .define('#', Items.IRON_INGOT)
+                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GOLDEN_SCYTHE.get())
+                .pattern("###")
+                .pattern(" @#")
+                .pattern("@  ")
+                .define('@', Items.STICK)
+                .define('#', Items.GOLD_INGOT)
+                .unlockedBy(getHasName(Items.GOLD_INGOT), has(Items.GOLD_INGOT)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIAMOND_SCYTHE.get())
+                .pattern("###")
+                .pattern(" @#")
+                .pattern("@  ")
+                .define('@', Items.STICK)
+                .define('#', Items.DIAMOND)
+                .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND)).save(pRecipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.NETHERITE_SCRAP)
                 .pattern("###")
                 .pattern("###")
