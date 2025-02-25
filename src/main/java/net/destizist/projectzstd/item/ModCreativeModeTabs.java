@@ -61,6 +61,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIAMOND_SCYTHE.get());
                         output.accept(ModItems.NETHERITE_SCYTHE.get());
 
+                        output.accept(ModItems.WITHERED_STEEL_HELMET.get());
+                        output.accept(ModItems.WITHERED_STEEL_CHESTPLATE.get());
+                        output.accept(ModItems.WITHERED_STEEL_LEGGINGS.get());
+                        output.accept(ModItems.WITHERED_STEEL_BOOTS.get());
+
                     }).build());
 
 

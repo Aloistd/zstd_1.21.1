@@ -63,6 +63,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.CITROFITE_LEGGINGS);
         trimmedArmorItem(ModItems.CITROFITE_BOOTS);
 
+        trimmedArmorItem(ModItems.WITHERED_STEEL_HELMET);
+        trimmedArmorItem(ModItems.WITHERED_STEEL_CHESTPLATE);
+        trimmedArmorItem(ModItems.WITHERED_STEEL_LEGGINGS);
+        trimmedArmorItem(ModItems.WITHERED_STEEL_BOOTS);
+
         handheldItem(ModItems.CITROFITE_SCYTHE);
         handheldItem(ModItems.WOODEN_SCYTHE);
         handheldItem(ModItems.STONE_SCYTHE);

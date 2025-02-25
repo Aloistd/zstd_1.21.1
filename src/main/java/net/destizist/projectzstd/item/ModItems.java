@@ -34,16 +34,19 @@ public class ModItems {
 
 public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget",
             () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> RAW_CITROFITE= ITEMS.register("raw_citrofite",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PURE_CITROFITE= ITEMS.register("pure_citrofite",
-
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CITROFITE_CHARGE= ITEMS.register("citrofite_charge",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CITROFITE_INGOT= ITEMS.register("citrofite_ingot",
             () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> WITHERED_BONE= ITEMS.register("withered_bone",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WITHERED_STEEL_INGOT= ITEMS.register("withered_steel_ingot",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CITROFITE_SWORD = ITEMS.register("citrofite_sword",
@@ -63,13 +66,31 @@ public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("neth
                     .attributes(HoeItem.createAttributes(ModToolTiers.CITROFITE, 0, -3.0f))));
 
     public static final RegistryObject<Item> CITROFITE_HELMET = ITEMS.register("citrofite_helmet",
-            () -> new ArmorItem(ModArmorMaterials.CITROFITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.CITROFITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(529).stacksTo(1)));
     public static final RegistryObject<Item> CITROFITE_CHESTPLATE = ITEMS.register("citrofite_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.CITROFITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.CITROFITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(769).stacksTo(1)));
     public static final RegistryObject<Item> CITROFITE_LEGGINGS = ITEMS.register("citrofite_leggings",
-            () -> new ArmorItem(ModArmorMaterials.CITROFITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.CITROFITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(721).stacksTo(1)));
     public static final RegistryObject<Item> CITROFITE_BOOTS = ITEMS.register("citrofite_boots",
-            () -> new ArmorItem(ModArmorMaterials.CITROFITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.CITROFITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(625).stacksTo(1)));
+
+    public static final RegistryObject<Item> WITHERED_STEEL_HELMET = ITEMS.register("withered_steel_helmet",
+            () -> new ArmorItem(ModArmorMaterials.WITHERED_STEEL_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(165).stacksTo(1)));
+    public static final RegistryObject<Item> WITHERED_STEEL_CHESTPLATE = ITEMS.register("withered_steel_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.WITHERED_STEEL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(240).stacksTo(1)));
+    public static final RegistryObject<Item> WITHERED_STEEL_LEGGINGS = ITEMS.register("withered_steel_leggings",
+            () -> new ArmorItem(ModArmorMaterials.WITHERED_STEEL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(225).stacksTo(1)));
+    public static final RegistryObject<Item> WITHERED_STEEL_BOOTS = ITEMS.register("withered_steel_boots",
+            () -> new ArmorItem(ModArmorMaterials.WITHERED_STEEL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(195).stacksTo(1)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

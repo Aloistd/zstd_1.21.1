@@ -1,2 +1,7 @@
-// 1.21.1	2025-02-20T05:21:06.4614619	Tags for minecraft:item mod id projectzstd
-8d052377280557882d6746c8d2d166b8415cda93 data/minecraft/tags/item/trimmable_armor.json
+// 1.21.1	2025-02-25T01:19:48.6408145	Tags for minecraft:item mod id projectzstd
+0445b8ed1971c005e01162d36c4a58807d12b5ff data/minecraft/tags/item/enchantable/chest_armor.json
+5df233b835a85259cf5bb04b4774d33054854226 data/minecraft/tags/item/enchantable/durability.json
+284983d2739d769e5465e8d9671874ba3f8b6872 data/minecraft/tags/item/enchantable/foot_armor.json
+bd4eb900a6b657cf17ae7f59b21ac05aeb6655ee data/minecraft/tags/item/enchantable/head_armor.json
+cbe29f733ad867d518a14fc73b1eec08992063b9 data/minecraft/tags/item/enchantable/leg_armor.json
+5df233b835a85259cf5bb04b4774d33054854226 data/minecraft/tags/item/trimmable_armor.json
