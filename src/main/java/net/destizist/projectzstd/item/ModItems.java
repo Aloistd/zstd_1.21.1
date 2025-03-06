@@ -18,19 +18,19 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> WOODEN_SCYTHE = ITEMS.register("wooden_scythe",
-            () -> new ScytheItem(Tiers.WOOD, 1, -2.4F, 3.0, 1.0F, new Item.Properties()));
+            () -> new ScytheItem(Tiers.WOOD, 3, -3F, 1.5,  new Item.Properties()));
     public static final RegistryObject<Item> STONE_SCYTHE = ITEMS.register("stone_scythe",
-            () -> new ScytheItem(Tiers.STONE, 1, -2.4F, 3.0, 1.0F, new Item.Properties()));
+            () -> new ScytheItem(Tiers.STONE, 3, -3F, 1.5,  new Item.Properties()));
     public static final RegistryObject<Item> IRON_SCYTHE = ITEMS.register("iron_scythe",
-            () -> new ScytheItem(Tiers.IRON, 1, -2.4F, 3.0, 1.0F, new Item.Properties()));
+            () -> new ScytheItem(Tiers.IRON, 3, -3F, 1.5,  new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_SCYTHE = ITEMS.register("golden_scythe",
-            () -> new ScytheItem(Tiers.GOLD, 1, -2.4F, 3.0, 1.0F, new Item.Properties()));
+            () -> new ScytheItem(Tiers.GOLD, 3, -3F, 1.5,  new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_SCYTHE = ITEMS.register("diamond_scythe",
-            () -> new ScytheItem(Tiers.DIAMOND, 1, -2.4F, 3.0, 1.0F, new Item.Properties()));
+            () -> new ScytheItem(Tiers.DIAMOND, 3, -3F, 1.5,  new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_SCYTHE = ITEMS.register("netherite_scythe",
-            () -> new ScytheItem(Tiers.NETHERITE, 1, -2.4F, 3.0, 1.0F, new Item.Properties()));
+            () -> new ScytheItem(Tiers.NETHERITE, 3, -3F, 1.5,  new Item.Properties()));
     public static final RegistryObject<Item> CITROFITE_SCYTHE = ITEMS.register("citrofite_scythe",
-            () -> new ScytheItem(ModToolTiers.CITROFITE, 0, -2.4F, 3.0, 0.0F, new Item.Properties()));
+            () -> new ScytheItem(ModToolTiers.CITROFITE, 4, -3F, 1.5,  new Item.Properties()));
 
 public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget",
             () -> new Item(new Item.Properties()));
