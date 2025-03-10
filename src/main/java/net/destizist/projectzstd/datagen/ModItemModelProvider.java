@@ -51,6 +51,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CITROFITE_INGOT.get());
 
         basicItem(ModItems.WITHERED_BONE.get());
+        basicItem(ModItems.WITHERED_STEEL_CHARGE.get());
+        basicItem(ModItems.WITHERED_STEEL_INGOT.get());
 
         handheldItem(ModItems.CITROFITE_SWORD);
         handheldItem(ModItems.CITROFITE_PICKAXE);
@@ -63,6 +65,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.CITROFITE_LEGGINGS);
         trimmedArmorItem(ModItems.CITROFITE_BOOTS);
 
+        handheldItem(ModItems.WITHERED_STEEL_SWORD);
+        handheldItem(ModItems.WITHERED_STEEL_PICKAXE);
+        handheldItem(ModItems.WITHERED_STEEL_SHOVEL);
+        handheldItem(ModItems.WITHERED_STEEL_AXE);
+        handheldItem(ModItems.WITHERED_STEEL_HOE);
+
         trimmedArmorItem(ModItems.WITHERED_STEEL_HELMET);
         trimmedArmorItem(ModItems.WITHERED_STEEL_CHESTPLATE);
         trimmedArmorItem(ModItems.WITHERED_STEEL_LEGGINGS);
@@ -74,6 +82,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.IRON_SCYTHE);
         handheldItem(ModItems.GOLDEN_SCYTHE);
         handheldItem(ModItems.DIAMOND_SCYTHE);
+        handheldItem(ModItems.WITHERED_STEEL_SCYTHE);
         handheldItem(ModItems.NETHERITE_SCYTHE);
 
     }

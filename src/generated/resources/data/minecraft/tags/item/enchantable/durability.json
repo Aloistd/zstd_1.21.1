@@ -7,6 +7,24 @@
     "projectzstd:withered_steel_helmet",
     "projectzstd:withered_steel_chestplate",
     "projectzstd:withered_steel_leggings",
-    "projectzstd:withered_steel_boots"
+    "projectzstd:withered_steel_boots",
+    "projectzstd:citrofite_sword",
+    "projectzstd:citrofite_axe",
+    "projectzstd:citrofite_pickaxe",
+    "projectzstd:citrofite_shovel",
+    "projectzstd:citrofite_hoe",
+    "projectzstd:withered_steel_sword",
+    "projectzstd:withered_steel_axe",
+    "projectzstd:withered_steel_pickaxe",
+    "projectzstd:withered_steel_shovel",
+    "projectzstd:withered_steel_hoe",
+    "projectzstd:wooden_scythe",
+    "projectzstd:stone_scythe",
+    "projectzstd:iron_scythe",
+    "projectzstd:withered_steel_scythe",
+    "projectzstd:golden_scythe",
+    "projectzstd:diamond_scythe",
+    "projectzstd:netherite_scythe",
+    "projectzstd:citrofite_scythe"
   ]
 }

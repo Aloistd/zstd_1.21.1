@@ -33,6 +33,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CITROFITE_INGOT.get());
 
                         output.accept(ModItems.WITHERED_BONE.get());
+                        output.accept(ModItems.WITHERED_STEEL_CHARGE.get());
+                        output.accept(ModItems.WITHERED_STEEL_INGOT.get());
+
 
                     }).build());
 
@@ -42,12 +45,22 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.projectzstd.zstd_equipment"))
                     .displayItems((itemDisplayParameters, output) -> {
 
+                        output.accept(ModItems.WITHERED_STEEL_SWORD.get());
+                        output.accept(ModItems.WITHERED_STEEL_AXE.get());
+                        output.accept(ModItems.WITHERED_STEEL_PICKAXE.get());
+                        output.accept(ModItems.WITHERED_STEEL_SHOVEL.get());
+                        output.accept(ModItems.WITHERED_STEEL_HOE.get());
+
+                        output.accept(ModItems.WITHERED_STEEL_HELMET.get());
+                        output.accept(ModItems.WITHERED_STEEL_CHESTPLATE.get());
+                        output.accept(ModItems.WITHERED_STEEL_LEGGINGS.get());
+                        output.accept(ModItems.WITHERED_STEEL_BOOTS.get());
+
                         output.accept(ModItems.CITROFITE_SWORD.get());
                         output.accept(ModItems.CITROFITE_AXE.get());
                         output.accept(ModItems.CITROFITE_PICKAXE.get());
                         output.accept(ModItems.CITROFITE_SHOVEL.get());
                         output.accept(ModItems.CITROFITE_HOE.get());
-                        output.accept(ModItems.CITROFITE_SCYTHE.get());
 
                         output.accept(ModItems.CITROFITE_HELMET.get());
                         output.accept(ModItems.CITROFITE_CHESTPLATE.get());
@@ -57,14 +70,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WOODEN_SCYTHE.get());
                         output.accept(ModItems.STONE_SCYTHE.get());
                         output.accept(ModItems.IRON_SCYTHE.get());
+                        output.accept(ModItems.WITHERED_STEEL_SCYTHE.get());
                         output.accept(ModItems.GOLDEN_SCYTHE.get());
                         output.accept(ModItems.DIAMOND_SCYTHE.get());
                         output.accept(ModItems.NETHERITE_SCYTHE.get());
+                        output.accept(ModItems.CITROFITE_SCYTHE.get());
 
-                        output.accept(ModItems.WITHERED_STEEL_HELMET.get());
-                        output.accept(ModItems.WITHERED_STEEL_CHESTPLATE.get());
-                        output.accept(ModItems.WITHERED_STEEL_LEGGINGS.get());
-                        output.accept(ModItems.WITHERED_STEEL_BOOTS.get());
 
                     }).build());
 

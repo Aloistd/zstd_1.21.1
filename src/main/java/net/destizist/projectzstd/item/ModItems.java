@@ -18,19 +18,21 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> WOODEN_SCYTHE = ITEMS.register("wooden_scythe",
-            () -> new ScytheItem(Tiers.WOOD, 3, -3F, 1.5,  new Item.Properties()));
+            () -> new ScytheItem(Tiers.WOOD, 3, -3F, 1.5,3,  new Item.Properties()));
     public static final RegistryObject<Item> STONE_SCYTHE = ITEMS.register("stone_scythe",
-            () -> new ScytheItem(Tiers.STONE, 3, -3F, 1.5,  new Item.Properties()));
+            () -> new ScytheItem(Tiers.STONE, 3, -3F, 1.5,3,  new Item.Properties()));
     public static final RegistryObject<Item> IRON_SCYTHE = ITEMS.register("iron_scythe",
-            () -> new ScytheItem(Tiers.IRON, 3, -3F, 1.5,  new Item.Properties()));
+            () -> new ScytheItem(Tiers.IRON, 3, -3F, 1.5,3,  new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_SCYTHE = ITEMS.register("golden_scythe",
-            () -> new ScytheItem(Tiers.GOLD, 3, -3F, 1.5,  new Item.Properties()));
+            () -> new ScytheItem(Tiers.GOLD, 3, -3F, 1.5,3, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_SCYTHE = ITEMS.register("diamond_scythe",
-            () -> new ScytheItem(Tiers.DIAMOND, 3, -3F, 1.5,  new Item.Properties()));
+            () -> new ScytheItem(Tiers.DIAMOND, 3, -3F, 1.5,3, new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_SCYTHE = ITEMS.register("netherite_scythe",
-            () -> new ScytheItem(Tiers.NETHERITE, 3, -3F, 1.5,  new Item.Properties()));
+            () -> new ScytheItem(Tiers.NETHERITE, 3, -3F, 1.5,3,  new Item.Properties()));
     public static final RegistryObject<Item> CITROFITE_SCYTHE = ITEMS.register("citrofite_scythe",
-            () -> new ScytheItem(ModToolTiers.CITROFITE, 4, -3F, 1.5,  new Item.Properties()));
+            () -> new ScytheItem(ModToolTiers.CITROFITE, 4, -3F, 1.5,4,  new Item.Properties()));
+    public static final RegistryObject<Item> WITHERED_STEEL_SCYTHE = ITEMS.register("withered_steel_scythe",
+            () -> new ScytheItem(ModToolTiers.WITHERED_STEEL, 3, -3F, 1.5,3,  new Item.Properties()));
 
 public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget",
             () -> new Item(new Item.Properties()));
@@ -45,6 +47,8 @@ public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("neth
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> WITHERED_BONE= ITEMS.register("withered_bone",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WITHERED_STEEL_CHARGE= ITEMS.register("withered_steel_charge",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WITHERED_STEEL_INGOT= ITEMS.register("withered_steel_ingot",
             () -> new Item(new Item.Properties()));
@@ -64,6 +68,22 @@ public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("neth
     public static final RegistryObject<Item> CITROFITE_HOE = ITEMS.register("citrofite_hoe",
             () -> new HoeItem(ModToolTiers.CITROFITE, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.CITROFITE, 0, -3.0f))));
+
+    public static final RegistryObject<Item> WITHERED_STEEL_SWORD = ITEMS.register("withered_steel_sword",
+            () -> new SwordItem(ModToolTiers.WITHERED_STEEL, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.WITHERED_STEEL, 4, -2.4f))));
+    public static final RegistryObject<Item> WITHERED_STEEL_PICKAXE = ITEMS.register("withered_steel_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.WITHERED_STEEL, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.WITHERED_STEEL, 1, -2.8f))));
+    public static final RegistryObject<Item> WITHERED_STEEL_SHOVEL = ITEMS.register("withered_steel_shovel",
+            () -> new ShovelItem(ModToolTiers.WITHERED_STEEL, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.WITHERED_STEEL, 1.5f, -3.0f))));
+    public static final RegistryObject<Item> WITHERED_STEEL_AXE = ITEMS.register("withered_steel_axe",
+            () -> new AxeItem(ModToolTiers.WITHERED_STEEL, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.WITHERED_STEEL, 7, -3.2f))));
+    public static final RegistryObject<Item> WITHERED_STEEL_HOE = ITEMS.register("withered_steel_hoe",
+            () -> new HoeItem(ModToolTiers.WITHERED_STEEL, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.WITHERED_STEEL, 0, -3.0f))));
 
     public static final RegistryObject<Item> CITROFITE_HELMET = ITEMS.register("citrofite_helmet",
             () -> new ArmorItem(ModArmorMaterials.CITROFITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,

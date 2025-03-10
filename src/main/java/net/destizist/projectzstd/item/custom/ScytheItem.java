@@ -29,13 +29,15 @@ public class ScytheItem extends TieredItem {
     private final int attackDamage;
     private final float attackSpeed;
     private final double aoeRadius;
+    private final float aoeDamage;
 
-    public ScytheItem(Tier tier, int attackDamage, float attackSpeed, double aoeRadius, Properties properties) {
+    public ScytheItem(Tier tier, int attackDamage, float attackSpeed, double aoeRadius, float aoeDamage, Properties properties) {
         super(tier, properties.component(DataComponents.TOOL, createToolProperties())
                 .component(DataComponents.ATTRIBUTE_MODIFIERS, createAttributes(tier, attackDamage, attackSpeed)));
         this.attackDamage = attackDamage;
         this.attackSpeed = attackSpeed;
         this.aoeRadius = aoeRadius;
+        this.aoeDamage = aoeDamage;
     }
 
     private static Tool createToolProperties() {
@@ -51,62 +53,49 @@ public class ScytheItem extends TieredItem {
 
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        // Проверяем, что атакующий — игрок
-        if (attacker instanceof Player) {
-            Player player = (Player) attacker;
-
-            // Проверяем, полностью ли заряжен удар
-            if (player.getAttackStrengthScale(0.5F) >= 1.0F) {
-                // Получаем направление взгляда игрока
-                double lookX = player.getLookAngle().x;
-                double lookZ = player.getLookAngle().z;
-
-                // Определяем центр области атаки (2 блока вперед от игрока)
-                double centerX = player.getX() + lookX * 2;
-                double centerZ = player.getZ() + lookZ * 2;
-
-                // Создаем область атаки (3 блока в ширину и 1 блок в высоту)
-                AABB area = new AABB(
-                        centerX - aoeRadius, player.getY(), centerZ - aoeRadius,
-                        centerX + aoeRadius, player.getY() + 1, centerZ + aoeRadius
-                );
-
-                // Получаем урон, который будет нанесен
-                float damage = (float) player.getAttributeValue(Attributes.ATTACK_DAMAGE);
-
-                // Наносим урон всем сущностям в области, включая основную цель
-                for (LivingEntity entity : player.level().getEntitiesOfClass(LivingEntity.class, area)) {
-                    if (entity != player) { // Игрок не должен наносить урон сам себе
-                        entity.hurt(player.damageSources().playerAttack(player), damage);
-                        // Добавляем эффект частиц
-                        player.level().addParticle(ParticleTypes.SWEEP_ATTACK, entity.getX(), entity.getY(), entity.getZ(), 0, 0, 0);
-                    }
-                }
-
-                // Воспроизводим звук
-                player.level().playSound(null, player.getX(), player.getY(), player.getZ(),
-                        SoundEvents.PLAYER_ATTACK_SWEEP, player.getSoundSource(), 1.0F, 1.0F);
-
-                // Добавляем частицы для визуальной обратной связи
-                player.level().addParticle(ParticleTypes.ENCHANT, player.getX(), player.getY() + 1.0, player.getZ(), 0.0, 0.5, 0.0);
-
-                // Наносим износ предмету
-                stack.hurtAndBreak(1, player, (p) -> {
-                    if (p instanceof Player) {
-                        ((Player) p).broadcastBreakEvent(EquipmentSlot.MAINHAND);
-                    }
-                });
-
-                // Возвращаем true, так как урон был нанесен
-                return true;
+        if (attacker instanceof Player player) {
+            // Проверяем, находится ли предмет на перезарядке
+            if (player.getCooldowns().isOnCooldown(this)) {
+                return false; // Если на перезарядке, атака не выполняется
             }
+
+            // Устанавливаем перезарядку в 2 секунды (40 тиков)
+            player.getCooldowns().addCooldown(this, 20);
+
+            double lookX = player.getLookAngle().x;
+            double lookZ = player.getLookAngle().z;
+
+            double centerX = player.getX() + lookX * 2;
+            double centerZ = player.getZ() + lookZ * 2;
+
+            AABB area = new AABB(
+                    centerX - aoeRadius, player.getY(), centerZ - aoeRadius,
+                    centerX + aoeRadius, player.getY() + 1, centerZ + aoeRadius
+            );
+
+            // Получаем урон, который будет нанесен
+            float damage = (float) player.getAttributeValue(Attributes.ATTACK_DAMAGE);
+
+            // Наносим урон всем сущностям в области, включая основную цель
+            for (LivingEntity entity : player.level().getEntitiesOfClass(LivingEntity.class, area)) {
+                if (entity != player) { // Игрок не должен наносить урон сам себе
+                    entity.hurt(player.damageSources().playerAttack(player), damage);
+                    player.level().addParticle(ParticleTypes.SWEEP_ATTACK, entity.getX(), entity.getY(), entity.getZ(), 0, 0, 0);
+                }
+            }
+
+            // Воспроизводим звук
+            player.level().playSound(null, player.getX(), player.getY(), player.getZ(),
+                    SoundEvents.PLAYER_ATTACK_SWEEP, player.getSoundSource(), 1.0F, 1.0F);
+
+            // Добавляем частицы для визуальной обратной связи
+            player.level().addParticle(ParticleTypes.ENCHANT, player.getX(), player.getY() + 1.0, player.getZ(), 0.0, 0.5, 0.0);
+
+            // Возвращаем true, так как урон был нанесен
+            return true;
         }
 
-        // Если удар не был полностью заряжен или атакующий не игрок, наносим урон только основной цели
-        return super.hurtEnemy(stack, target, attacker);
-    }
-
-        // Если удар не был полностью заряжен или атакующий не игрок, наносим урон только основной цели
+        // Если атакующий не игрок, наносим урон только основной цели
         return super.hurtEnemy(stack, target, attacker);
     }
 

@@ -10,6 +10,8 @@ public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_CITROFITE_TOOL = createTag("needs_citrofite_tool");
         public static final TagKey<Block> INCORRECT_FOR_CITROFITE_TOOL = createTag("incorrect_for_citrofite_tool");
+        public static final TagKey<Block> NEEDS_WITHERED_STEEL_TOOL = createTag("needs_withered_steel_tool");
+        public static final TagKey<Block> INCORRECT_FOR_WITHERED_STEEL_TOOL = createTag("incorrect_for_withered_steel_tool");
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(ProjectZstd.MOD_ID, name));

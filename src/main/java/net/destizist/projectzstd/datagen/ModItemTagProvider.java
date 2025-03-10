@@ -40,7 +40,26 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.WITHERED_STEEL_HELMET.get())
                 .add(ModItems.WITHERED_STEEL_CHESTPLATE.get())
                 .add(ModItems.WITHERED_STEEL_LEGGINGS.get())
-                .add(ModItems.WITHERED_STEEL_BOOTS.get());
+                .add(ModItems.WITHERED_STEEL_BOOTS.get())
+                .add(ModItems.CITROFITE_SWORD.get())
+                .add(ModItems.CITROFITE_AXE.get())
+                .add(ModItems.CITROFITE_PICKAXE.get())
+                .add(ModItems.CITROFITE_SHOVEL.get())
+                .add(ModItems.CITROFITE_HOE.get())
+                .add(ModItems.WITHERED_STEEL_SWORD.get())
+                .add(ModItems.WITHERED_STEEL_AXE.get())
+                .add(ModItems.WITHERED_STEEL_PICKAXE.get())
+                .add(ModItems.WITHERED_STEEL_SHOVEL.get())
+                .add(ModItems.WITHERED_STEEL_HOE.get())
+                .add(ModItems.WOODEN_SCYTHE.get())
+                .add(ModItems.STONE_SCYTHE.get())
+                .add(ModItems.IRON_SCYTHE.get())
+                .add(ModItems.WITHERED_STEEL_SCYTHE.get())
+                .add(ModItems.GOLDEN_SCYTHE.get())
+                .add(ModItems.DIAMOND_SCYTHE.get())
+                .add(ModItems.NETHERITE_SCYTHE.get())
+                .add(ModItems.CITROFITE_SCYTHE.get());
+
         tag(ItemTags.HEAD_ARMOR_ENCHANTABLE)
                 .add(ModItems.CITROFITE_HELMET.get())
                 .add(ModItems.WITHERED_STEEL_HELMET.get());
@@ -53,7 +72,21 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ItemTags.FOOT_ARMOR_ENCHANTABLE)
                 .add(ModItems.CITROFITE_BOOTS.get())
                 .add(ModItems.WITHERED_STEEL_BOOTS.get());
+        tag(ItemTags.MINING_ENCHANTABLE)
 
+        ;
+        tag(ItemTags.MINING_LOOT_ENCHANTABLE)
+
+        ;
+        tag(ItemTags.SHARP_WEAPON_ENCHANTABLE)
+
+        ;
+        tag(ItemTags.FIRE_ASPECT_ENCHANTABLE)
+
+        ;
+        tag(ItemTags.SWORD_ENCHANTABLE)
+
+        ;
 
     }
 

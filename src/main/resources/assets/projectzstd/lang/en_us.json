@@ -1,11 +1,15 @@
 {
-  "creativetab.projectzstd.zstd_items": "zstd",
-  "creativetab.projectzstd.zstd_equipment": "Ezstd",
+  "creativetab.projectzstd.zstd_items": "Zstd Items",
+  "creativetab.projectzstd.zstd_equipment": "Zstd Equipment",
   "item.projectzstd.netherite_nugget": "Netherite Nugget",
   "item.projectzstd.raw_citrofite": "Raw Citrofite",
   "item.projectzstd.citrofite_ingot": "Citrofite Ingot",
   "item.projectzstd.pure_citrofite": "Pure Citrofite",
   "item.projectzstd.citrofite_charge": "Citrofite Charge",
+
+  "item.projectzstd.withered_steel_ingot": "Withered Steel Ingot",
+  "item.projectzstd.withered_bone": "Withered Bone",
+  "item.projectzstd.withered_steel_charge": "Withered Steel Charge",
 
   "item.projectzstd.citrofite_sword": "Citrofite Sword",
   "item.projectzstd.citrofite_axe": "Citrofite Axe",
@@ -18,6 +22,17 @@
   "item.projectzstd.citrofite_leggings": "Citrofite Leggings",
   "item.projectzstd.citrofite_boots": "Citrofite Boots",
 
+  "item.projectzstd.withered_steel_sword": "Withered Steel Sword",
+  "item.projectzstd.withered_steel_axe": "Withered Steel Axe",
+  "item.projectzstd.withered_steel_pickaxe": "Withered Steel Pickaxe",
+  "item.projectzstd.withered_steel_shovel": "Withered Steel Shovel",
+  "item.projectzstd.withered_steel_hoe": "Withered Steel Hoe",
+
+  "item.projectzstd.withered_steel_helmet": "Withered Steel Helmet",
+  "item.projectzstd.withered_steel_chestplate": "Withered Steel Chestplate",
+  "item.projectzstd.withered_steel_leggings": "Withered Steel Leggings",
+  "item.projectzstd.withered_steel_boots": "Withered Steel Boots",
+
   "block.projectzstd.netherite_ore": "Netherite Ore",
   "block.projectzstd.deepslate_netherite_ore": "Deepslate Netherite Ore",
   "block.projectzstd.citrofite_ore": "Citrofite Ore",
@@ -27,6 +42,7 @@
   "item.projectzstd.netherite_scythe":"Netherite Scythe",
   "item.projectzstd.diamond_scythe":"Diamond Scythe",
   "item.projectzstd.golden_scythe":"Golden Scythe",
+  "item.projectzstd.withered_steel_scythe":"Withered Steel Scythe",
   "item.projectzstd.iron_scythe":"Iron Scythe",
   "item.projectzstd.stone_scythe":"Stone Scythe",
   "item.projectzstd.wooden_scythe":"Wooden Scythe"

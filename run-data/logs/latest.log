@@ -1,31 +1,31 @@
-[07мар.2025 03:16:10.727] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\Пользователь\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, projectzstd, --all, --output, C:\Users\Пользователь\Desktop\zstd_1.21.1\src\generated\resources, --existing, C:\Users\Пользователь\Desktop\zstd_1.21.1\src\main\resources]
-[07мар.2025 03:16:10.731] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.6+7-LTS
-[07мар.2025 03:16:10.733] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.6 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[07мар.2025 03:16:10.903] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[07мар.2025 03:16:11.096] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Пользователь/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[07мар.2025 03:16:13.012] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[07мар.2025 03:16:14.264] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Пользователь\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, projectzstd, --all, --output, C:\Users\Пользователь\Desktop\zstd_1.21.1\src\generated\resources, --existing, C:\Users\Пользователь\Desktop\zstd_1.21.1\src\main\resources]
-[07мар.2025 03:16:22.431] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.10, for MC 1.21.1 with MCP 20240808.132146
-[07мар.2025 03:16:22.431] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.10 Initialized
-[07мар.2025 03:16:22.468] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[07мар.2025 03:16:23.444] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [projectzstd]
-[07мар.2025 03:16:23.693] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Пользователь/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.10_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.0.10_mapped_parchment_2024.07.28-1.21.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[07мар.2025 03:16:23.694] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Пользователь/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.10_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.0.10_mapped_parchment_2024.07.28-1.21.jar%230!/data/.mcassetsroot' uses unexpected schema
-[07мар.2025 03:16:23.880] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[07мар.2025 03:16:24.154] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 272 ms
-[07мар.2025 03:16:24.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[07мар.2025 03:16:24.254] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 98 ms
-[07мар.2025 03:16:24.254] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id projectzstd
-[07мар.2025 03:16:24.264] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id projectzstd finished after 10 ms
-[07мар.2025 03:16:24.265] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id projectzstd
-[07мар.2025 03:16:24.267] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id projectzstd finished after 1 ms
-[07мар.2025 03:16:24.267] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: projectzstd
-[07мар.2025 03:16:24.403] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: projectzstd finished after 135 ms
-[07мар.2025 03:16:24.403] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: projectzstd
-[07мар.2025 03:16:24.581] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: projectzstd finished after 177 ms
-[07мар.2025 03:16:24.581] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[07мар.2025 03:16:24.586] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 4 ms
-[07мар.2025 03:16:24.587] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : projectzstd
-[07мар.2025 03:16:24.593] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : projectzstd finished after 5 ms
-[07мар.2025 03:16:24.593] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 713 ms
-[07мар.2025 03:16:24.604] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 181, old count: 181, new count: 182, removed stale: 0, written: 0
+[10мар.2025 16:42:04.145] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\Пользователь\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, projectzstd, --all, --output, C:\Users\Пользователь\Desktop\zstd_1.21.1\src\generated\resources, --existing, C:\Users\Пользователь\Desktop\zstd_1.21.1\src\main\resources]
+[10мар.2025 16:42:04.150] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+[10мар.2025 16:42:04.152] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.6 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[10мар.2025 16:42:04.306] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[10мар.2025 16:42:04.565] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Пользователь/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[10мар.2025 16:42:06.526] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[10мар.2025 16:42:07.888] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Пользователь\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, projectzstd, --all, --output, C:\Users\Пользователь\Desktop\zstd_1.21.1\src\generated\resources, --existing, C:\Users\Пользователь\Desktop\zstd_1.21.1\src\main\resources]
+[10мар.2025 16:42:17.651] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.10, for MC 1.21.1 with MCP 20240808.132146
+[10мар.2025 16:42:17.651] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.10 Initialized
+[10мар.2025 16:42:17.693] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[10мар.2025 16:42:18.627] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [projectzstd]
+[10мар.2025 16:42:18.751] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Пользователь/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.10_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.0.10_mapped_parchment_2024.07.28-1.21.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[10мар.2025 16:42:18.751] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Пользователь/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.10_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.0.10_mapped_parchment_2024.07.28-1.21.jar%230!/data/.mcassetsroot' uses unexpected schema
+[10мар.2025 16:42:18.967] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[10мар.2025 16:42:19.259] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 292 ms
+[10мар.2025 16:42:19.260] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[10мар.2025 16:42:19.386] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 126 ms
+[10мар.2025 16:42:19.386] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id projectzstd
+[10мар.2025 16:42:19.396] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id projectzstd finished after 9 ms
+[10мар.2025 16:42:19.397] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id projectzstd
+[10мар.2025 16:42:19.469] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id projectzstd finished after 72 ms
+[10мар.2025 16:42:19.469] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: projectzstd
+[10мар.2025 16:42:19.582] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: projectzstd finished after 112 ms
+[10мар.2025 16:42:19.582] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: projectzstd
+[10мар.2025 16:42:19.701] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: projectzstd finished after 118 ms
+[10мар.2025 16:42:19.701] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[10мар.2025 16:42:19.705] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 4 ms
+[10мар.2025 16:42:19.705] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : projectzstd
+[10мар.2025 16:42:19.711] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : projectzstd finished after 5 ms
+[10мар.2025 16:42:19.711] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 745 ms
+[10мар.2025 16:42:19.722] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 194, old count: 189, new count: 195, removed stale: 0, written: 6
