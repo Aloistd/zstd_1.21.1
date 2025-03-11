@@ -24,6 +24,10 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                 new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/wither_skeleton"))
                         .and(LootItemRandomChanceCondition.randomChance(0.2f)).build() },
                 ModItems.WITHERED_BONE.get()));
+        this.add("chisel_from_chests",
+                new AddItemModifier(new LootItemCondition[] {
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/nether_bridge")).build()
+                }, ModItems.WITHERED_STEEL_UPGRADE_SMITHING_TEMPLATE.get()));
 
     }
 }

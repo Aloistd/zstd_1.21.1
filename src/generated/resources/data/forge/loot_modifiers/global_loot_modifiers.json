@@ -1,5 +1,6 @@
 {
   "entries": [
+    "projectzstd:chisel_from_chests",
     "projectzstd:withered_bone_from_wither_skeleton"
   ],
   "replace": false

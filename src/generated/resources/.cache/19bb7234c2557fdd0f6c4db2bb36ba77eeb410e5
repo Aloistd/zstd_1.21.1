@@ -1,3 +1,4 @@
-// 1.21.1	2025-03-11T10:15:37.980293	Global Loot Modifiers : projectzstd
-c9956172b5711f044dcada9b1472f7f93d3d5b35 data/forge/loot_modifiers/global_loot_modifiers.json
+// 1.21.1	2025-03-11T11:01:41.7223065	Global Loot Modifiers : projectzstd
+7c8ae0adbf11b25180201ecfe11d54f27a246127 data/forge/loot_modifiers/global_loot_modifiers.json
+9de6a7cf51b427daab47312c6383cf5f2cb0bc0e data/projectzstd/loot_modifiers/chisel_from_chests.json
 7de20998ed5c5f022c694c6f87a2bb7df5fd0f9e data/projectzstd/loot_modifiers/withered_bone_from_wither_skeleton.json

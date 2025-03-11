@@ -30,6 +30,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModItems.RAW_CITROFITE.get());
         List<ItemLike> CITROFITE_CHARGE_SMELTABLES = List.of(
                 ModItems.CITROFITE_CHARGE.get());
+        List<ItemLike> WITHERED_STEEL_CHARGE_SMELTABLES = List.of(
+                ModItems.WITHERED_STEEL_CHARGE.get());
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WOODEN_SCYTHE.get())
                 .pattern("###")
@@ -84,15 +86,38 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Items.NETHER_STAR)
                .unlockedBy(getHasName(ModItems.PURE_CITROFITE.get()), has(ModItems.PURE_CITROFITE.get())).save(pRecipeOutput);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.WITHERED_STEEL_CHARGE.get(), 6)
+                .requires(ModItems.WITHERED_BONE.get(),4)
+                .requires(Items.IRON_INGOT,5)
+                .unlockedBy(getHasName(ModItems.WITHERED_BONE.get()), has(ModItems.WITHERED_BONE.get())).save(pRecipeOutput);
 
-        oreSmelting(pRecipeOutput, NETHERITE_SMELTABLES, RecipeCategory.MISC, ModItems.NETHERITE_NUGGET.get(), 0.25f, 200, "alexandrite");
-        oreBlasting(pRecipeOutput, NETHERITE_SMELTABLES, RecipeCategory.MISC, ModItems.NETHERITE_NUGGET.get(), 0.25f, 100, "alexandrite");
+        //ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.WITHERED_STEEL_CHARGE.get(), 6)
+                //.requires(ModItems.WITHERED_BONE.get(),4)
+                //.requires(Items.RAW_IRON,5)
+                //.unlockedBy(getHasName(ModItems.WITHERED_BONE.get()), has(ModItems.WITHERED_BONE.get())).save(pRecipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.WITHERED_STEEL_UPGRADE_SMITHING_TEMPLATE.get(), 2)
+                .requires(ModItems.WITHERED_STEEL_INGOT.get(),4)
+                .requires(ModItems.NETHERITE_NUGGET.get(),4)
+                .requires(ModItems.WITHERED_STEEL_UPGRADE_SMITHING_TEMPLATE.get())
+                .unlockedBy(getHasName(ModItems.WITHERED_STEEL_UPGRADE_SMITHING_TEMPLATE.get()), has(ModItems.WITHERED_STEEL_UPGRADE_SMITHING_TEMPLATE.get())).save(pRecipeOutput);
+
+        //ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.WITHERED_STEEL_UPGRADE_SMITHING_TEMPLATE.get(), 2)
+                //.requires(ModItems.WITHERED_STEEL_INGOT.get(),4)
+                //.requires(ModItems.NETHERITE_NUGGET.get(),4)
+                //.requires(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE)
+                //.unlockedBy(getHasName(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE), has(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE)).save(pRecipeOutput);
+
+        oreSmelting(pRecipeOutput, NETHERITE_SMELTABLES, RecipeCategory.MISC, ModItems.NETHERITE_NUGGET.get(), 0.25f, 200, "netherite");
+        oreBlasting(pRecipeOutput, NETHERITE_SMELTABLES, RecipeCategory.MISC, ModItems.NETHERITE_NUGGET.get(), 0.25f, 100, "netherite");
         oreSmelting(pRecipeOutput, CITROFITE_ORE_SMELTABLES, RecipeCategory.MISC, ModItems.RAW_CITROFITE.get(), 0.40f, 400, "citrofite");
         oreBlasting(pRecipeOutput, CITROFITE_ORE_SMELTABLES, RecipeCategory.MISC, ModItems.RAW_CITROFITE.get(), 0.40f, 200, "citrofite");
         oreSmelting(pRecipeOutput, RAW_CITROFITE_SMELTABLES, RecipeCategory.MISC, ModItems.PURE_CITROFITE.get(), 0.20f, 200, "citrofite");
         oreBlasting(pRecipeOutput, RAW_CITROFITE_SMELTABLES, RecipeCategory.MISC, ModItems.PURE_CITROFITE.get(), 0.20f, 100, "citrofite");
         oreSmelting(pRecipeOutput, CITROFITE_CHARGE_SMELTABLES, RecipeCategory.MISC, ModItems.CITROFITE_INGOT.get(), 0.80f, 1600, "citrofite");
         oreBlasting(pRecipeOutput, CITROFITE_CHARGE_SMELTABLES, RecipeCategory.MISC, ModItems.CITROFITE_INGOT.get(), 0.80f, 800, "citrofite");
+        oreSmelting(pRecipeOutput, WITHERED_STEEL_CHARGE_SMELTABLES, RecipeCategory.MISC, ModItems.WITHERED_STEEL_INGOT.get(), 0.25f, 400, "withered_steel");
+        oreBlasting(pRecipeOutput, WITHERED_STEEL_CHARGE_SMELTABLES, RecipeCategory.MISC, ModItems.WITHERED_STEEL_INGOT.get(), 0.25f, 200, "withered_steel");
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
