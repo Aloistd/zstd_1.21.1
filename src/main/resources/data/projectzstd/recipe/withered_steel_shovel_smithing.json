@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "projectzstd:withered_steel_ingot"
+  },
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "projectzstd:withered_steel_shovel"
+  },
+  "template": {
+    "item": "projectzstd:withered_steel_upgrade_smithing_template"
+  }
+}
+

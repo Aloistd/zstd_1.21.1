@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "projectzstd:withered_steel_ingot"
+  },
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "result": {
+    "count": 1,
+    "id": "projectzstd:withered_steel_chestplate"
+  },
+  "template": {
+    "item": "projectzstd:withered_steel_upgrade_smithing_template"
+  }
+}
+
+
+
+
+
+
+

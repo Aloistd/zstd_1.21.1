@@ -53,6 +53,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.WITHERED_BONE.get());
         basicItem(ModItems.WITHERED_STEEL_CHARGE.get());
         basicItem(ModItems.WITHERED_STEEL_INGOT.get());
+        basicItem(ModItems.WITHERED_STEEL_UPGRADE_SMITHING_TEMPLATE.get());
 
         handheldItem(ModItems.CITROFITE_SWORD);
         handheldItem(ModItems.CITROFITE_PICKAXE);

@@ -52,6 +52,8 @@ public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("neth
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WITHERED_STEEL_INGOT= ITEMS.register("withered_steel_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WITHERED_STEEL_UPGRADE_SMITHING_TEMPLATE= ITEMS.register("withered_steel_upgrade_smithing_template",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CITROFITE_SWORD = ITEMS.register("citrofite_sword",
             () -> new SwordItem(ModToolTiers.CITROFITE, new Item.Properties()

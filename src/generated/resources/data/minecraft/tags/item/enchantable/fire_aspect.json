@@ -1,3 +1,14 @@
 {
-  "values": []
+  "values": [
+    "projectzstd:wooden_scythe",
+    "projectzstd:stone_scythe",
+    "projectzstd:iron_scythe",
+    "projectzstd:withered_steel_scythe",
+    "projectzstd:golden_scythe",
+    "projectzstd:diamond_scythe",
+    "projectzstd:netherite_scythe",
+    "projectzstd:citrofite_scythe",
+    "projectzstd:withered_steel_sword",
+    "projectzstd:citrofite_sword"
+  ]
 }

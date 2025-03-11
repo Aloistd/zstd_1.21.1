@@ -73,19 +73,68 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.CITROFITE_BOOTS.get())
                 .add(ModItems.WITHERED_STEEL_BOOTS.get());
         tag(ItemTags.MINING_ENCHANTABLE)
+                .add(ModItems.CITROFITE_AXE.get())
+                .add(ModItems.CITROFITE_PICKAXE.get())
+                .add(ModItems.CITROFITE_SHOVEL.get())
+                .add(ModItems.WITHERED_STEEL_AXE.get())
+                .add(ModItems.WITHERED_STEEL_PICKAXE.get())
+                .add(ModItems.WITHERED_STEEL_SHOVEL.get());
 
-        ;
         tag(ItemTags.MINING_LOOT_ENCHANTABLE)
+                .add(ModItems.CITROFITE_PICKAXE.get())
+                .add(ModItems.WITHERED_STEEL_PICKAXE.get());
 
-        ;
         tag(ItemTags.SHARP_WEAPON_ENCHANTABLE)
+                .add(ModItems.WOODEN_SCYTHE.get())
+                .add(ModItems.STONE_SCYTHE.get())
+                .add(ModItems.IRON_SCYTHE.get())
+                .add(ModItems.WITHERED_STEEL_SCYTHE.get())
+                .add(ModItems.GOLDEN_SCYTHE.get())
+                .add(ModItems.DIAMOND_SCYTHE.get())
+                .add(ModItems.NETHERITE_SCYTHE.get())
+                .add(ModItems.CITROFITE_SCYTHE.get())
+                .add(ModItems.CITROFITE_SWORD.get())
+                .add(ModItems.CITROFITE_AXE.get())
+                .add(ModItems.WITHERED_STEEL_SWORD.get())
+                .add(ModItems.WITHERED_STEEL_AXE.get());
 
-        ;
         tag(ItemTags.FIRE_ASPECT_ENCHANTABLE)
+                .add(ModItems.WOODEN_SCYTHE.get())
+                .add(ModItems.STONE_SCYTHE.get())
+                .add(ModItems.IRON_SCYTHE.get())
+                .add(ModItems.WITHERED_STEEL_SCYTHE.get())
+                .add(ModItems.GOLDEN_SCYTHE.get())
+                .add(ModItems.DIAMOND_SCYTHE.get())
+                .add(ModItems.NETHERITE_SCYTHE.get())
+                .add(ModItems.CITROFITE_SCYTHE.get())
+                .add(ModItems.WITHERED_STEEL_SWORD.get())
+                .add(ModItems.CITROFITE_SWORD.get());
 
-        ;
         tag(ItemTags.SWORD_ENCHANTABLE)
+                .add(ModItems.WOODEN_SCYTHE.get())
+                .add(ModItems.STONE_SCYTHE.get())
+                .add(ModItems.IRON_SCYTHE.get())
+                .add(ModItems.WITHERED_STEEL_SCYTHE.get())
+                .add(ModItems.GOLDEN_SCYTHE.get())
+                .add(ModItems.DIAMOND_SCYTHE.get())
+                .add(ModItems.NETHERITE_SCYTHE.get())
+                .add(ModItems.CITROFITE_SCYTHE.get())
+                .add(ModItems.CITROFITE_SWORD.get())
+                .add(ModItems.WITHERED_STEEL_SWORD.get());
 
+        tag(ItemTags.WEAPON_ENCHANTABLE)
+                .add(ModItems.WOODEN_SCYTHE.get())
+                .add(ModItems.STONE_SCYTHE.get())
+                .add(ModItems.IRON_SCYTHE.get())
+                .add(ModItems.WITHERED_STEEL_SCYTHE.get())
+                .add(ModItems.GOLDEN_SCYTHE.get())
+                .add(ModItems.DIAMOND_SCYTHE.get())
+                .add(ModItems.NETHERITE_SCYTHE.get())
+                .add(ModItems.CITROFITE_SCYTHE.get())
+                .add(ModItems.CITROFITE_SWORD.get())
+                .add(ModItems.CITROFITE_AXE.get())
+                .add(ModItems.WITHERED_STEEL_SWORD.get())
+                .add(ModItems.WITHERED_STEEL_AXE.get())
         ;
 
     }

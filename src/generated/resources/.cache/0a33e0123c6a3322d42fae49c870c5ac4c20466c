@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-10T15:28:59.6151326	Item Models: projectzstd
+// 1.21.1	2025-03-11T10:15:37.9812926	Item Models: projectzstd
 f5529edbd6b8f3818f63a15e4ef6cd6c3a57b7d8 assets/projectzstd/models/item/citrofite_axe.json
 9a4ac970170f4d474ce396423a9ade04fca32fbe assets/projectzstd/models/item/citrofite_boots.json
 6ed3305b00ba387fd8fd91b2f49c447ee2cd1a81 assets/projectzstd/models/item/citrofite_boots_amethyst_trim.json
@@ -112,4 +112,5 @@ b1f82661702b81b48a2fb292d62a71e7d36d78db assets/projectzstd/models/item/withered
 ba52e7e1ffece2fac257e9c5081ea4a7dc1cc04d assets/projectzstd/models/item/withered_steel_scythe.json
 50f9f62a039cbf59b76a594979cb6cc6120b6c18 assets/projectzstd/models/item/withered_steel_shovel.json
 f823b25ba97ebb8e4e13234e524afc518f9aa106 assets/projectzstd/models/item/withered_steel_sword.json
+afdd3908b1c90477ff1c5540e9d227d5ad361547 assets/projectzstd/models/item/withered_steel_upgrade_smithing_template.json
 193da80f97df9fc70042bc9efd568a9e0bae7132 assets/projectzstd/models/item/wooden_scythe.json

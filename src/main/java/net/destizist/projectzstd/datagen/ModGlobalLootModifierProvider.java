@@ -20,7 +20,7 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
 
     @Override
     protected void start(HolderLookup.Provider registries) {
-        add("withered_bone_from_creeper", new AddItemModifier(new LootItemCondition[] {
+        add("withered_bone_from_wither_skeleton", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/wither_skeleton"))
                         .and(LootItemRandomChanceCondition.randomChance(0.2f)).build() },
                 ModItems.WITHERED_BONE.get()));

@@ -1,3 +1,10 @@
 {
-  "values": []
+  "values": [
+    "projectzstd:citrofite_axe",
+    "projectzstd:citrofite_pickaxe",
+    "projectzstd:citrofite_shovel",
+    "projectzstd:withered_steel_axe",
+    "projectzstd:withered_steel_pickaxe",
+    "projectzstd:withered_steel_shovel"
+  ]
 }

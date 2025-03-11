@@ -22,10 +22,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.NETHERITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_NETHERITE_ORE.get());
 
-                        output.accept(ModItems.NETHERITE_NUGGET.get());
-
                         output.accept(ModBlocks.CITROFITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_CITROFITE_ORE.get());
+
+                        output.accept(ModItems.NETHERITE_NUGGET.get());
 
                         output.accept(ModItems.RAW_CITROFITE.get());
                         output.accept(ModItems.PURE_CITROFITE.get());
@@ -35,6 +35,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WITHERED_BONE.get());
                         output.accept(ModItems.WITHERED_STEEL_CHARGE.get());
                         output.accept(ModItems.WITHERED_STEEL_INGOT.get());
+                        output.accept(ModItems.WITHERED_STEEL_UPGRADE_SMITHING_TEMPLATE.get());
 
 
                     }).build());
